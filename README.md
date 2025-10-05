@@ -6,15 +6,15 @@ CLII: Visual-Text Inpainting via Cross-Modal Predictive Interaction
 
 ## Get Started
 
-## Create Virtual Environment with Conda
+### Create Virtual Environment with Conda
 conda create --name ppt python=3.9
 conda activate cl
 
-## Install Dependencies
+### Install Dependencies
 pip install -r requirements.txt
 
 
-## Datasets
+### Datasets
 
 - Training datasets
 
@@ -25,19 +25,19 @@ pip install -r requirements.txt
 
 
 
-## Pretrained Models
+### Pretrained Models
 
 Get the pretrained models from [BaiduNetdisk(passwd:kwck)](https://pan.baidu.com/s/1b3vyvPwvh_75FkPlp87czQ), [GoogleDrive](https://drive.google.com/file/d/1mYM_26qHUom_5NU7iutHneB_KHlLjL5y/view?usp=sharing). 
 
 
-## Training
+### Training
 
 ```
 python main.py --config=configs/train.yaml
 ```
 
 
-## Evaluation
+### Evaluation
 
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --config=configs/train.yaml --phase test --image_only
@@ -51,7 +51,7 @@ Additional flags:
 
 
 
-## Citation
+### Citation
 If you find our method useful for your reserach, please cite
 ```bash 
 @inproceedings{
@@ -59,6 +59,6 @@ If you find our method useful for your reserach, please cite
  ```
 
 
-## Acknowledgements
+### Acknowledgements
 
 The code is based on the , we sincerely thank   for the awesome repo.
