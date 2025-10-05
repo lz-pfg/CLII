@@ -1,16 +1,16 @@
 # CLII
 CLII: Visual-Text Inpainting via Cross-Modal Predictive Interaction
 
-![qua1](./figures/qua1.pdf)
-![qua2](./figures/qua2.pdf)
+![qua1](./figures/qua1.png)
+![qua2](./figures/qua2.png)
 
-# Get Started
+## Get Started
 
-# Create Virtual Environment with Conda
+## Create Virtual Environment with Conda
 conda create --name ppt python=3.9
 conda activate cl
 
-# Install Dependencies
+## Install Dependencies
 pip install -r requirements.txt
 
 
@@ -61,4 +61,4 @@ If you find our method useful for your reserach, please cite
 
 ## Acknowledgements
 
-The code is based on the https://arxiv.org/pdf/2103.06495.pdf, we sincerely thank   for the awesome repo.
+The code is based on the , we sincerely thank   for the awesome repo.
